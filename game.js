@@ -191,13 +191,14 @@ function gameloop() {
   ctx.fillText(`Attendance: ${score}`, 10, 50);
 
 
-  ctx.strokeStyle = 'red';
+  /*ctx.strokeStyle = 'red';
   ctx.strokeRect(charRect.x, charRect.y, charRect.width, charRect.height);
   for (const obs of obstacles) {
     ctx.strokeStyle = 'blue';
     ctx.strokeRect(obs.top.x + 15, obs.top.y, obs.top.width - 30, obs.top.height);
     ctx.strokeRect(obs.bottom.x + 15, obs.bottom.y, obs.bottom.width - 30, obs.bottom.height);
   }
+  */
   
 
   requestAnimationFrame(gameloop);
